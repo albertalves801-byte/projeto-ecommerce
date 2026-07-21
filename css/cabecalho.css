@@ -1,7 +1,7 @@
 .cabecalho {
     grid-area: header;
     padding: 30px 0;
-} 
+}
 
 .cabecalho .menu-principal {
     display: none;
@@ -33,7 +33,7 @@
 
 .cabecalho.menu-ativo .menu-principal {
     display: block;
-} 
+}
 
 .header-conteudo {
     display: flex;
@@ -65,7 +65,7 @@
     display: block;
     height: 3px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--cor-neutra-clara);
 }
 
 .botao-carrinho {
@@ -89,7 +89,7 @@
     height: 16px;
     justify-content: center;
     align-items: center;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 @media(min-width: 940px) {
@@ -104,9 +104,9 @@
     }
 }
 
-@media(min-width: 1440px) {
+@media(min-width: 1170px) {
     .cabecalho {
-        max-width: 1440px;
+        max-width: 1170px;
         margin: 0 auto;
     }
 }
